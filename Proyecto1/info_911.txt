@@ -1,0 +1,12 @@
+Archivos sobre incidencias reporttadas al 911 en Sonora
+
+    Archivo que contiene una tabla con el numero de incidencias reportadas al
+    911 en el estado de Sonora, la aplicacion esta respaldada por el C5 del
+    estado, pero fuera de eso no ha mucha mas informacion al respecto.
+    En la libreta se agrego un comentario sobre cual podria ser la fuente 
+    original de estos datos.
+
+    Pagina principal: http://apps.sspsonora.gob.mx/Incidencia911/
+    
+Agregados nacionales descargados desde: http://apps.sspsonora.gob.mx/Incidencia911/Analisis/obtTablaIncidentesMunicipio
+Nombre: incidencias911_2020.csv

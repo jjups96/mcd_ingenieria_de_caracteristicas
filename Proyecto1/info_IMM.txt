@@ -1,0 +1,23 @@
+Archivos sobre el indice de marginacion
+
+        Archivo que contiene los indicadores socioeconómicos que conformaron cada 
+        índice de marginación por municipio
+
+        Pagina principal: https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372
+        Nota tecnica del calculo y fuentes: https://www.gob.mx/cms/uploads/attachment/file/685354/Nota_te_cnica_IMEyM_2020.pdf
+        
+Descargado el 2022-10-19 06:43:57
+Desde: http://www.conapo.gob.mx/work/models/CONAPO/Marginacion/Datos_Abiertos/Municipio/IMM_2020.xls
+Nombre: IMM_2020.xls
+Archivos sobre incidencias reporttadas al 911 en Sonora
+
+        Archivo que contiene una tabla con el numero de incidencias reportadas al
+        911 en el estado de Sonora, la aplicacion esta respaldada por el C5 del
+        estado, pero fuera de eso no ha mucha mas informacion al respecto.
+        En la libreta se agrego un comentario sobre cual podria ser la fuente 
+        original de estos datos.
+
+        Pagina principal: http://apps.sspsonora.gob.mx/Incidencia911/
+        
+Agregados nacionales descargados desde: http://apps.sspsonora.gob.mx/Incidencia911/Analisis/obtTablaIncidentesMunicipio
+Nombre: incidencias911_2020.csv
