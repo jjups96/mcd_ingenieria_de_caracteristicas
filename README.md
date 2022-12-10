@@ -20,7 +20,17 @@ Así se procedió a indagar el comportamiento de la incidencia delictiva y las l
 
 ![Relacion]( https://github.com/jjups96/mcd_ingenieria_de_caracteristicas/blob/main/imagenes/EDARapidoFurioso2_911.png)
 
-Se procedió a crear un [nuevo archivo de recolección de datos](https://colab.research.google.com/drive/12grS37N-BPEWe4LASd3i5R36BeU_lSjr?usp=sharing)., para fusionar los datos de las llamadas y las incidencias
+Se procedió a crear un [nuevo archivo de recolección de datos](https://colab.research.google.com/drive/12grS37N-BPEWe4LASd3i5R36BeU_lSjr?usp=sharing), para fusionar los datos de las llamadas y las incidencias
+
+| Variable | Definición | Tipo |
+| --- | --- | --- |
+| Municipio| Nombre del municipio sonorense | Cadena |
+| Poblacion| Población total del municipio sonorense | Entero |
+| [Delitos] | Cantidad de ese tipo delitos cometidos | Entero |
+| total_delitos | Sumatoria de ese tipo delitos cometidos | Entero |
+| Año | Año al cual pertenece el registro | Entero |
+| INS_911 | Cantidad de llamadas a la línea de emergencia | Entero |
+
 
 ## Tablero
 Para el tablero, se quería que usuario observara los cambios en el uso de la línea de emergencias y al mismo tiempo como ha cambiado la incidencia delictiva.
