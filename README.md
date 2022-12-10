@@ -8,20 +8,23 @@ Desde un inicio el profesor Waissman nos habló del proyecto final, un proceso d
 
 ## Análisis exploratorio de datos
 Durante esta fase nos dimos cuenta de que una limpieza ni armonización era necesario pues las dos fuentes seguían las pautas establecidas por la secretaria de datos el gobierno.
-Usando pandas-profiler, que por cierto funciono cuando se instalo y a la siguiente vez que lo use tuve que usar un ambiente solo para él, se realizó un análisis exploratorio de datos rápido y furioso, el cual no dio los resultados esperados, no se encontró una relación entre la marginación y las llamadas al 911.
+Usando pandas-profiler, que por cierto funciono cuando se instalo y a la siguiente vez que lo use tuve que usar un ambiente solo para él, se realizó [un análisis exploratorio de datos rápido y furioso](https://github.com/jjups96/mcd_ingenieria_de_caracteristicas/blob/main/Proyecto2/eda.ipynb), el cual no dio los resultados esperados, no se encontró una relación entre la marginación y las llamadas al 911.
 
 ![Primer eda]( https://github.com/jjups96/mcd_ingenieria_de_caracteristicas/blob/main/imagenes/EDARapidoFurioso.png)
 
-Intrigado por el suceso, recurrí a otra fuente de datos relacionada con el crimen, [las incidencias delictivas]( https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva?state=published), con el cual se desarrolló de nuevo análisis exploratorio de datos con pandas-profiler, este confirmo lo encontrado con el primero, no hay una relación entre el la incidencia delictiva (reportada) y la marginación, o por lo menos no una muy fuerte.
+Intrigado por el suceso, recurrí a otra fuente de datos relacionada con el crimen, [las incidencias delictivas]( https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva?state=published), con el cual se desarrolló un [nuevo análisis exploratorio de datos]( https://github.com/jjups96/mcd_ingenieria_de_caracteristicas/blob/main/Proyecto2/eda2.ipynb) con pandas-profiler, este confirmo lo encontrado con el primero, no hay una relación entre el la incidencia delictiva (reportada) y la marginación, o por lo menos no una muy fuerte.
 
 ![Segundo eda]( https://github.com/jjups96/mcd_ingenieria_de_caracteristicas/blob/main/imagenes/EDARapidoFurioso2.png)
+
 Así se procedió a indagar el comportamiento de la incidencia delictiva y las llamadas al 911, puesto que se observo una fuerte relación, y me pareció interesante el definir su naturaleza
 
 ![Relacion]( https://github.com/jjups96/mcd_ingenieria_de_caracteristicas/blob/main/imagenes/EDARapidoFurioso2_911.png)
 
-Se procedió a crear un nuevo archivo de recolección de datos, para fusionar los datos de las llamadas y las incidencias.
+Se procedió a crear un [nuevo archivo de recolección de datos](https://colab.research.google.com/drive/12grS37N-BPEWe4LASd3i5R36BeU_lSjr?usp=sharing)., para fusionar los datos de las llamadas y las incidencias
+
 ## Tablero
 Para el tablero, se quería que usuario observara los cambios en el uso de la línea de emergencias y al mismo tiempo como ha cambiado la incidencia delictiva.
 
 [Link al tablero](https://datastudio.google.com/reporting/a45a9873-b805-4a28-982a-d22dfe727214)
+
 
